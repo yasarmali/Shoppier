@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!-- ! Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- ! Fontawesome -->
+    <script src="https://kit.fontawesome.com/b36662cd22.js" crossorigin="anonymous"></script>
+    <!-- ! External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <!-- Header1 -->
+        <div class="header1 bg-secondary-subtle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 mt-3">
+                        <div class="contact">
+                            <ul class="d-flex list-unstyled">
+                                <li class="px-2 fs-6">
+                                    <a href="#" class=" text-decoration-none text-black-50">
+                                        <i class="fa-solid fa-phone"></i> +90 555 555 55 55
+                                    </a>
+                                </li>
+                                <li class="px-2 fs-6">
+                                    <a href="#" class="text-decoration-none text-black-50">
+                                        <i class="fa fa-envelope"></i> e-ticaret@gmail.com
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-6 mt-3">
+                        <div class="social-media">
+                            <ul class="d-flex list-unstyled justify-content-end">
+                                <li class="px-4 fs-6">
+                                    <a href="#" class=" text-decoration-none text-black-50">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="px-4 fs-6">
+                                    <a href="#" class=" text-decoration-none text-black-50">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="px-4 fs-6">
+                                    <a href="#" class=" text-decoration-none text-black-50">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li class="px-4 fs-6">
+                                    <a href="#" class=" text-decoration-none text-black-50">
+                                        <i class="fa fa-dribbble"></i>
+                                    </a>
+                                </li>
+                                <li class="px-4 fs-6">
+                                    <a href="#" class=" text-decoration-none text-black-50">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header2 -->
+        <div class="header2">
+            <div class="container mt-3">
+                <div class="row">
+                    <div class="col-sm-4 d-flex align-items-center">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img class="img-fluid" src="img/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="context d-flex">
+                            <select class="border-black shadow-none text-secondary ms-4 me-2 p-1"
+                            aria-label="Default select example">
+                                <option selected>USA</option>
+                                <option value="1">UK</option>
+                                <option value="2">GERMANY</option>
+                                <option value="3">TURKEY</option>
+                            </select>
+                            <select class="border-black shadow-none text-secondary ms-4 me-2 p-1"
+                            aria-label="Default select example">
+                                <option selected>DOLLAR</option>
+                                <option value="1">POUND</option>
+                                <option value="2">EURO</option>
+                                <option value="3">TL</option>
+                            </select>
+                        </div>                                                
+                    </div>
+
+                    <div class="col-sm-8 d-flex justify-content-end  align-items-center">
+                        <div class="shop-menu">
+							<ul class="d-flex list-unstyled justify-content-between align-items-center">
+								<li class="mx-4">
+                                    <a class="text-black-50 text-decoration-none" href="#">
+                                        <i class="fa fa-user"></i> Account
+                                    </a>
+                                </li>
+								<li class="mx-4">
+                                    <a class="text-black-50 text-decoration-none" href="#">
+                                        <i class="fa fa-star"></i> Wishlist
+                                    </a>
+                                </li>
+								<li class="mx-4">
+                                    <a class="text-black-50 text-decoration-none" href="#">
+                                        <i class="fa fa-crosshairs"></i> Checkout
+                                    </a>
+                                </li>
+								<li class="mx-4">
+                                    <a class="text-black-50 text-decoration-none" href="#">
+                                        <i class="fa fa-shopping-cart"></i> Cart
+                                    </a>
+                                </li>
+								<li class="ms-4">
+                                    <a class="text-black-50 text-decoration-none" href="login.html">
+                                        <i class="fa fa-lock"></i> Login
+                                    </a>
+                                </li>
+							</ul>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="cizgi m-auto my-4">
+
+        <!-- Header3 -->
+        <div class="header3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <nav class="navbar navbar-expand-lg">
+                                                          
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mb-2 mb-lg-0">
+                                  <li class="nav-item">
+                                    <a class="nav-link active text-warning" aria-current="page" href="index.html">Home</a>
+                                  </li>
+                                  
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle me-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Shop
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="shop.html">Product</a></li>
+                                      <li><a class="dropdown-item" href="#">Shopping Card</a></li>
+                                      <li><a class="dropdown-item" href="#">Discount</a></li>
+                                    </ul>
+                                  </li>
+                                  
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle me-4" href="shop.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Blog
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="shop.html">Product</a></li>
+                                      <li><a class="dropdown-item" href="shop.html">Shopping Card</a></li>
+                                      <li><a class="dropdown-item" href="shop.html">Discount</a></li>
+                                    </ul>
+                                  </li>
+
+                                  <li class="nav-item">
+                                    <a class="nav-link me-4" aria-current="page" href="#">404</a>
+                                  </li>
+
+                                  <li class="nav-item">
+                                    <a class="nav-link me-4" aria-current="page" href="contact.html">Contact</a>
+                                  </li>
+                                </ul>
+                                
+                              </div>
+                            
+                          </nav>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="box d-flex justify-content-end">
+                            <input class="form-control w-50 bg-body-secondary" type="search" placeholder="Search" aria-label="Search">
+                            <i class="search_kit fa-solid fa-magnifying-glass"></i>
+                        </div>                                                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart -->
+    <section class="shopping-cart-items">
+        <div class="container">
+            <!-- item -->
+            <div class="item mt-4">
+                <ul class="d-flex">
+                    <li class="list-unstyled pe-2"><a class="text-decoration-none text-bg-warning px-2 py-1" href="#">Home</a></li>
+                    <li class="list-unstyled"><a class="text-decoration-none active text-light-emphasis" href="#">Shopping Cart</a></li>
+                </ul>
+            </div>
+            <!-- Shopping -->
+            <div class="shopping mt-4">
+                <div class="container">
+                    <div class="row shop-header">
+                        <div class="col-2">
+                            <h3 class="text-light fw-medium mt-2">Item</h3>
+                        </div>
+                        <div class="col-4"></div>
+                        <div class="col-1">
+                            <h3 class="text-light fw-medium mt-2">Price</h3>
+                        </div>
+                        <div class="col-3">
+                            <h3 class="text-light fw-medium mt-2">Quantity</h3>
+                        </div>
+                        <div class="col-1">
+                            <h3 class="text-light fw-medium mt-2">Total</h3>
+                        </div>
+                        <div class="col-1"></div>
+                    </div>
+                        
+                    <div class="listCard row mt-2">
+                        <div class="col-2">
+                            <img class="img-fluid mt-3" src="img/satir1.png" alt="satir1">
+                        </div>
+                        <div class="col-4 item-description">
+                            <h4 class="item-description-header m-0">Colorblock Scuba</h4>
+                            <p class="item-description-id m-0">Web ID: 1089772</p>
+                        </div>
+                        <div class="col-1">
+                            <p class="price item-price text-secondary fs-3">$59</p>
+                        </div>                            
+                        <div class="col-3">
+                            <div class="item-quantity">
+                                <button class="text-secondary plus" href="#"><i class="fa-solid fa-plus"></i></button>
+                                <input class="quantity quantity-input text-center"  type="text" value="0">
+                                <button class="text-secondary minus" href="#"><i class="fa-solid fa-minus"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <p class="total-price item-price text-warning fs-2">0</p>
+                        </div>
+                        <div class="col-1 item-delete">
+                            <a class=" text-secondary text-center" href="#"><i class="fa-solid fa-square-xmark fs-3"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="listCard row mt-2">
+                        <div class="col-2">
+                            <img class="img-fluid mt-3" src="img/satir1.png" alt="satir1">
+                        </div>
+                        <div class="col-4 item-description">
+                            <h4 class="item-description-header m-0">Colorblock Scuba</h4>
+                            <p class="item-description-id m-0">Web ID: 1089772</p>
+                        </div>
+                        <div class="col-1">
+                            <p class="price item-price text-secondary fs-3">$59</p>
+                        </div>                            
+                        <div class="col-3">
+                            <div class="item-quantity">
+                                <button class="text-secondary plus" href="#"><i class="fa-solid fa-plus"></i></button>
+                                <input class="quantity quantity-input text-center" type="text" value="0">
+                                <button class="text-secondary minus" href="#"><i class="fa-solid fa-minus"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <p class="total-price item-price text-warning fs-2">0</p>
+                        </div>
+                        <div class="col-1 item-delete">
+                            <a class=" text-secondary text-center" href="#"><i class="fa-solid fa-square-xmark fs-3"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="listCard row mt-2">
+                        <div class="col-2">
+                            <img class="img-fluid mt-3" src="img/satir1.png" alt="satir1">
+                        </div>
+                        <div class="col-4 item-description">
+                            <h4 class="item-description-header m-0">Colorblock Scuba</h4>
+                            <p class="item-description-id m-0">Web ID: 1089772</p>
+                        </div>
+                        <div class="col-1">
+                            <p class="price item-price text-secondary fs-3">$59</p>
+                        </div>                            
+                        <div class="col-3">
+                            <div class="item-quantity">
+                                <button class="text-secondary plus" href="#"><i class="fa-solid fa-plus"></i></button>
+                                <input class="quantity quantity-input text-center" type="text" value="0">
+                                <button class="text-secondary minus" href="#"><i class="fa-solid fa-minus"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <p class="total-price item-price text-warning fs-2">0</p>
+                        </div>
+                        <div class="col-1 item-delete">
+                            <a class=" text-secondary text-center" href="#"><i class="fa-solid fa-square-xmark fs-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Shopping-account -->
+    <section>
+        <div class="container">
+            <div class="head">
+				<h3>What would you like to do next?</h3>
+				<p>Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.</p>
+			</div>
+            <div class="row shopping-account mb-4">
+                <div class="col-6">
+                    <div class="form-check mb-2">
+                        <input class="form-check-input border-black mt-1" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        Use Coupon Code
+                        </label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input border-black mt-1" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        Use Gift Voucher
+                        </label>
+                    </div>
+                    <div class="form-check mb-4">
+                        <input class="form-check-input border-black mt-1" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        Estimate Shipping & Taxes
+                        </label>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-3 p-0 .shopping-info">
+                            <label>Country:</label><br>
+							<select class="w-75 bg-secondary-subtle">
+								<option>Turkey</option>
+								<option>US</option>
+								<option>UK</option>
+							</select>
+                        </div>
+                        <div class="col-3 p-0">
+                            <label>Region / State:</label><br>
+							<select class="w-75 bg-secondary-subtle">
+								<option>İstanbul</option>
+								<option>New York</option>
+								<option>London</option>
+							</select>
+                        </div>
+                        <div class="col-3 p-0">
+                            <label>Zip Code:</label>
+							<input class="h-50" type="text">
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <button type="button" class="btn btn-warning mt-3 me-2">Get Quotes</button>
+                    <button type="button" class="btn btn-warning mt-3 me-2">Continue</button>
+                </div>
+
+                <div class="col-6">
+                    <div class="d-flex justify-content-between bg-secondary-subtle p-2">
+                        <p class="text-secondary">Cart Sub Total</p>
+                        <span class="Cart-Sub-Total text-secondary">0</span>
+                    </div>
+                    <div class="d-flex justify-content-between bg-secondary-subtle p-2 mt-3">
+                        <p class="text-secondary">Eco Tax</p>
+                        <span class="Eco-Tax text-secondary">0</span>
+                    </div>
+                    <div class="d-flex justify-content-between bg-secondary-subtle p-2 mt-3">
+                        <p class="text-secondary">Shipping Cost</p>
+                        <span class="Shipping-Cost text-secondary">Free</span>
+                    </div>
+                    <div class="d-flex justify-content-between bg-secondary-subtle p-2 mt-3">
+                        <p class="text-secondary">Total</p>
+                        <span class="Total-Card text-secondary">0</span>
+                    </div>
+
+                    <button type="button" class="btn btn-warning mt-3 me-2">Update</button>
+                    <button type="button" class="btn btn-warning mt-3 me-2">Check Out</button>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid footer-bottom p-0">
+          <div class="footer p-5">
+              <div class="row p-5 border-bottom">
+                  <div class="col-2">
+                      <h2>E-SHOPPER</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cum doloribus amet totam
+                          quos repellat.</p>
+                  </div>
+                  <div class="col-7">
+                      <div class="row">
+                          <div class="col-3 text-center">
+                              <img class="img-fluid" src="img/shop1.jpg" alt="">
+                              <h6>Circle of Hands</h6>
+                              <p>24 DEC 2014</p>
+  
+                          </div>
+                          <div class="col-3 text-center">
+                              <img class="img-fluid" src="img/shop1.jpg" alt="">
+                              <h6>Circle of Hands</h6>
+                              <p>24 DEC 2014</p>
+  
+                          </div>
+                          <div class="col-3 text-center">
+                              <img class="img-fluid" src="img/shop1.jpg" alt="">
+                              <h6>Circle of Hands</h6>
+                              <p>24 DEC 2014</p>
+  
+                          </div>
+                          <div class="col-3 text-center">
+                              <img class="img-fluid" src="img/shop1.jpg" alt="">
+                              <h6>Circle of Hands</h6>
+                              <p>24 DEC 2014</p>
+  
+                          </div>
+                      </div>
+  
+                  </div>
+                  <div class="world h3 col-3 text-center p-5">
+                      <h5>505 S Atlantic Ave Virginia Beach, VA(Virginia)</h5>
+  
+                  </div>
+  
+              </div>
+  
+              <div class="row p-5">
+                  <div class="col-2 ">
+                      <h5 class="mb-4 fw-bold">SERVİCE</h5>
+  
+                      <p>Online Help</p>
+                      <p>Contact Us</p>
+                      <p>Order Status</p>
+                      <p>Change Location</p>
+                      <p>FAQ's</p>
+  
+                  </div>
+                  <div class="col-2">
+                      <h5 class="mb-4 fw-bold">QUOCK SHOP</h5>
+  
+                      <p>T-Shirt</p>
+                      <p>Mens</p>
+                      <p>Womens</p>
+                      <p>Gift Cards</p>
+                      <p>Shoes</p>
+  
+                  </div>
+                  <div class="col-2">
+                      <h5 class="mb-4 fw-bold">POLICIES</h5>
+  
+                      <p>Terms of Use</p>
+                      <p>Privecy Policy</p>
+                      <p>Refund Policy</p>
+                      <p>Billing System</p>
+                      <p>Ticket System</p>
+  
+                  </div>
+                  <div class="col-2">
+                      <h5 class="mb-4 fw-bold">ABOUT SHOPPER</h5>
+  
+                      <p>Company information</p>
+                      <p>Careers</p>
+                      <p>Store Location</p>
+                      <p>Affillate Program</p>
+                      <p>Copyright</p>
+  
+                  </div>
+                  <div class="col-4 px-5">
+                      <h5 class="mb-4 fw-bold">ABOUT SHOPPER</h5>
+                      <div class="input-group mb-3">
+                          <input type="text" class="form-control" placeholder="Your email address"
+                              aria-label="Recipient's username" aria-describedby="basic-addon2">
+                          <span class="input-group-text" id="basic-addon2"><i
+                                  class="fa-solid fa-arrow-right fa-lg"></i></span>
+                      </div>
+                      <p>Get the most recent updates from our site and be updated your self...</p>
+  
+  
+  
+                  </div>
+  
+              </div>
+  
+          </div>
+          <div class="container-fluid footer-alt text ">
+              <div class="container d-flex justify-content-between px-0 py-3 ">
+                <p>Copyright 2013 E-SHOPPER ınc. All rights reserved</p>
+                <span>Designed by <a href="">Themeum</a></span>
+              </div>
+              
+          </div>
+      </div>
+      </div>
+    </footer>
+    <!-- ! Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.form-select{
+    width: 125px !important; 
+    font-size: 12px !important;    
+}
+
+.cizgi{
+    width: 85%;
+}
+
+.box{
+    position: relative;
+}
+
+.search_kit{
+    position: absolute;
+    left: 280px;
+    top: 10px;
+}
+
+.sidebar-baslik, .content-baslik{
+    color: orange;
+}
+
+.sidebar-left li a, .sidebar-left li i{
+    color: #787673;
+    font-size: 16px;
+}
+
+
+.footer-bottom{
+    background-color: #f0f0e9 !important;
+}
+
+footer .footer-alt{
+    background-color: #d6d6d0;
+}
+
+.footer-alt a{
+    color: orange;
+}
+
+.world{
+    background-image: url(/img/dunya.jpg);
+    background-size: cover;
+}
+
+/* Login ekranı */
+.login{
+    margin: 50px auto;
+}
+
+.login-left{
+    padding-left: 7rem;
+}
+
+.login-info{
+    background-color: #F0F0E9 !important;
+}
+
+.or{
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    
+    position: absolute;
+    top: 48%;
+    border-radius: 50%;
+}
+
+.or h5{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.contact-left-baslik, .contact-right-baslik, .contact-right-social{
+    color: orange;
+}
+
+/* Cart */
+
+.shop-header{
+    background-color: orange;
+}
+
+.item-description{
+    margin-top: 40px;
+}
+
+.item-description-header{
+    font-size: 20px;
+}
+
+.item-description-id{
+    font-size: 18px;
+}
+
+.item-price{
+    margin: 40px auto;
+}
+
+.item-quantity{
+    margin-top: 40px;
+}
+
+.quantity-input{
+    width: 50px;
+    padding: 5px 10px;
+}
+
+.item-delete{
+    margin-top: 50px;
+}
+
+.shopping-account{
+    margin-top: 50px;
+}
+
+.shopping-account .form-check{
+    margin-left: 25px;
+}
+
+.shopping-info{
+    margin-left: 10px;
+}
+
+/* Responsive Start */
+
+@media screen and (max-width:1200px) {
+    /* Home */
+    
+}
+
+@media screen and (max-width:992px) {
+    /* Home */
+.rNone{
+    margin-bottom: 20px !important;
+
+}
+.noneOr{
+    display: none !important;
+}
+.login-left{
+    padding-left: 0px !important;
+    margin: auto !important;
+}
+.login{
+    margin: 0px !important;
+}
+    
+}
+
+@media screen and (max-width:767px) {
+    /* Home */
+    /* Header1 */
+
+   
+}
+
+
+@media screen and (max-width:576px) {
+    /* Home */
+    .card{
+        width: 100% !important;
+     }
+    
+}
+
+
+
+
